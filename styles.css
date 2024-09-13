@@ -43,20 +43,6 @@ body > header{
     margin: 20px;
 }
 
-#nav-ul::after {
-    content: '';
-    width: 0%;
-    height:2px;
-    background-color: #8a737d;
-    display:block;
-    margin:auto;
-    transition: 0.5s;
-
-}
-
-#nav-ul:hover::after {
-    width: 100%
-}
 
 body > header > nav > ul {
     list-style:none;
