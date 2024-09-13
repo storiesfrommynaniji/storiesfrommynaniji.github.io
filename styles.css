@@ -43,7 +43,7 @@ body > header{
     margin: 20px;
 }
 
-#nav-ul ul li::after {
+#nav-ul::after {
     content: '';
     width: 0%;
     height:2px;
@@ -54,7 +54,7 @@ body > header{
 
 }
 
-#nav-ul ul li:hover::after {
+#nav-ul:hover::after {
     width: 100%
 }
 
